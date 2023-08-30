@@ -1,0 +1,24 @@
+baseURL = 'https://vegankarnataka.in/'
+languageCode = 'en-uk'
+title = 'Vegan Karnataka'
+theme = 'hugo-paper'
+[params]
+  color = 'light'
+  facebook = 'BengaluruBrigadeForAnimalLiberation'
+  instagram = 'goveganwithbbal'
+  linkedin = 'bengaluru-brigade-for-animal-liberation-bbal/'
+  twitter = 'goveganwithbbal'
+  youtube = '@goveganwithbbal'
+[menu]
+  [[menu.main]]
+    name = 'Blog'
+    pageRef = '/blogs'
+  [[menu.main]]
+    name = 'FAQs'
+    pageRef = '/faqs'
+  [[menu.main]]
+    name = 'Resources'
+    pageRef = '/resources'
+  [[menu.main]]
+    name = 'Activities'
+    pageRef = '/activities'
